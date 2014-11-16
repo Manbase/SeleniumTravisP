@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="6076" started-at="2014-11-16T01:04:18Z" finished-at="2014-11-16T01:04:24Z">
+    <groups>
+    </groups>
+    <test name="Default test" duration-ms="6076" started-at="2014-11-16T01:04:18Z" finished-at="2014-11-16T01:04:24Z">
+      <class name="script.Hvvbkjvjhg">
+        <test-method status="PASS" signature="b()[pri:0, instance:script.Hvvbkjvjhg@6c79fa4f]" name="b" is-config="true" duration-ms="4184" started-at="2014-11-15T20:04:18Z" finished-at="2014-11-15T20:04:23Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="main()[pri:0, instance:script.Hvvbkjvjhg@6c79fa4f]" name="main" duration-ms="1725" started-at="2014-11-15T20:04:23Z" finished-at="2014-11-15T20:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- main -->
+        <test-method status="PASS" signature="a()[pri:0, instance:script.Hvvbkjvjhg@6c79fa4f]" name="a" is-config="true" duration-ms="156" started-at="2014-11-15T20:04:24Z" finished-at="2014-11-15T20:04:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+      </class> <!-- script.Hvvbkjvjhg -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ghosh-PC" name="script.ATest" tests="4" failures="0" timestamp="16 Nov 2014 01:19:57 GMT" time="30.776" errors="0">
+  <testcase name="main" time="3.244" classname="script.ATest"/>
+  <testcase name="main" time="1.467" classname="script.HvvbkjvjhgTest"/>
+  <testcase name="main" time="1.747" classname="script.SmokeTest"/>
+  <testcase name="main" time="5.944" classname="script.Smoke_Test"/>
+</testsuite>

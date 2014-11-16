@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="ghosh-PC" name="script.SmokeTest" tests="1" failures="0" timestamp="16 Nov 2014 00:55:50 GMT" time="6.129" errors="0">
+  <testcase name="main" time="1.729" classname="script.SmokeTest"/>
+</testsuite>
