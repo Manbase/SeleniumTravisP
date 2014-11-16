@@ -14,22 +14,22 @@ public class Smoke_Test {
 	
 	@BeforeMethod
 	public void b(){
-		driver = new FirefoxDriver();
+		/*driver = new FirefoxDriver();
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().pageLoadTimeout(1, TimeUnit.MINUTES);
-		driver.manage().window().maximize();
+		driver.manage().window().maximize();*/
 	}
 	
 	@Test
 	public void main() {
 		
-		driver.navigate().to("http://www.yahoo.com");
-
+		//driver.navigate().to("http://www.yahoo.com");
+		System.out.println("Hamid ");
 
 	}
 	@AfterMethod
 	public void a(){
-		driver.close();
+		//driver.close();
 	}
 
 
