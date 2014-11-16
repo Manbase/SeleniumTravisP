@@ -24,7 +24,7 @@ public class Smoke_Test {
 	public void main() {
 		
 		driver.navigate().to("http://www.yahoo.com");
-
+	//KAka
 
 	}
 	@AfterMethod
