@@ -23,13 +23,12 @@ public class Smoke_Test {
 	@Test
 	public void main() {
 		
-<<<<<<< HEAD
+
 		//driver.navigate().to("http://www.yahoo.com");
 		System.out.println("Hamid ");
-=======
+
 		driver.navigate().to("http://www.yahoo.com");
-	//KAka
->>>>>>> origin/master
+
 
 	}
 	@AfterMethod

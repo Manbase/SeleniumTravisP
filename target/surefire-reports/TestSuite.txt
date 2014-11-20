@@ -1,4 +1,7 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 4, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 31.455 sec
+Tests run: 4, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 0.64 sec <<< FAILURE!
+main(script.Smoke_Test)  Time elapsed: 0 sec  <<< FAILURE!
+java.lang.NullPointerException
+	at script.Smoke_Test.main(Smoke_Test.java:30)

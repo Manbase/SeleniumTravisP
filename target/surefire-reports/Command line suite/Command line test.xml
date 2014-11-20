@@ -1,7 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite hostname="ghosh-PC" name="script.ATest" tests="4" failures="0" timestamp="16 Nov 2014 01:19:57 GMT" time="30.776" errors="0">
-  <testcase name="main" time="3.244" classname="script.ATest"/>
-  <testcase name="main" time="1.467" classname="script.HvvbkjvjhgTest"/>
-  <testcase name="main" time="1.747" classname="script.SmokeTest"/>
-  <testcase name="main" time="5.944" classname="script.Smoke_Test"/>
+<testsuite hostname="ghosh-PC" name="script.ATest" tests="4" failures="1" timestamp="20 Nov 2014 01:11:52 GMT" time="0.031" errors="0">
+  <testcase name="main" time="0.0" classname="script.ATest"/>
+  <testcase name="main" time="0.0" classname="script.HvvbkjvjhgTest"/>
+  <testcase name="main" time="0.0" classname="script.SmokeTest"/>
+  <testcase name="main" time="0.0" classname="script.Smoke_Test">
+    <failure type="java.lang.NullPointerException">
+      <![CDATA[java.lang.NullPointerException
+	at script.Smoke_Test.main(Smoke_Test.java:30)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:70)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.executeMulti(TestNGDirectoryTestSuite.java:158)
+	at org.apache.maven.surefire.testng.TestNGDirectoryTestSuite.execute(TestNGDirectoryTestSuite.java:98)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:111)
+	at org.apache.maven.surefire.util.ReflectionUtils.invokeMethodWithArray(ReflectionUtils.java:164)
+	at org.apache.maven.surefire.booter.ProviderFactory$ProviderProxy.invoke(ProviderFactory.java:110)
+	at org.apache.maven.surefire.booter.SurefireStarter.invokeProvider(SurefireStarter.java:175)
+	at org.apache.maven.surefire.booter.SurefireStarter.runSuitesInProcessWhenForked(SurefireStarter.java:107)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:68)
+... Removed 26 stack frames]]>
+    </failure>
+  </testcase>
 </testsuite>
